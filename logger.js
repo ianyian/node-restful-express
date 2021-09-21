@@ -45,7 +45,7 @@ class Logger extends EventEmitter {
     console.log(`Logger.log => ${message}`);
 
     //raise an evnt
-    this.emit("messageLogged", { id: 88, name: "Ah Huat" });
+    this.emit("messageLogged", { id: 88, myMsg: message, name: "Ah Huat" });
   }
 }
 

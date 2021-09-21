@@ -11,4 +11,5 @@ loggerclass.on("messageLogged", (arg) => {
   console.log("tester.loggerclass.Listner ==> called", arg);
 });
 
+//push message
 loggerclass.log("tester.logclss.log ==> this is loggerclass message");
